@@ -32,11 +32,11 @@ const XSpellCheck = () => {
 
   return (
     <div>
-      <h1>XSpellCheck</h1>
+      <h1>Spell Check & Auto-Correction</h1>
       <textarea
         value={text}
         onChange={handleChange}
-        placeholder="Enter your text here"
+        placeholder="Enter text..."
         rows={6}
         cols={50}
       ></textarea>
